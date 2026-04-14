@@ -44,8 +44,8 @@ tmp/
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
-
+env_service/environments/appworld/appworld_data/
+*.zip
 
 
 # Django stuff:
