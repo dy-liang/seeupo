@@ -45,9 +45,12 @@ tmp/
 *.manifest
 *.spec
 env_service/environments/appworld/appworld_data/
+env_service/environments/appworld/data/
+env_service/environments/appworld/experiments/
+
 *.zip
-
-
+wandb/
+experiments/
 # Django stuff:
 *.log
 
