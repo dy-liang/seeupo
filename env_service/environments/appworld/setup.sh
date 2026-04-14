@@ -23,7 +23,7 @@ export PYTHONPATH="$BEYONDAGENT_DIR:$PYTHONPATH"
 # 3. Conda 环境创建
 if ! conda info --envs | grep -w "appworld" &>/dev/null; then
     echo "🐍 创建 Conda 环境 appworld（Python 3.11）..."
-    conda create -n appworld python=3.11.0 -y
+    conda create -n appworld python=3.12.0 -y
 else
     echo "⚠️ Conda 环境 appworld 已存在，请删除或修改。（本次已跳过创建）。"
 fi
